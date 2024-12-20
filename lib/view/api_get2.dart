@@ -30,6 +30,11 @@ class ApiGet2 extends StatelessWidget {
                       onPressed: () {
                         context.read<Getapi2>().getdata();
                       },
+                      child: Text("Refresh")),
+                  ElevatedButton(
+                      onPressed: () {
+                        context.read<Getapi2>().getdata();
+                      },
                       child: Text("Refresh"))
                 ],
               ));
